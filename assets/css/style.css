@@ -1,0 +1,226 @@
+/*****Applies to all pages*****/
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../images/sprinkles_@2x.png);
+}
+
+.header1 {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	width: 100%;
+	border-bottom: solid #dddddd 3px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.pike {
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #ccc;
+	display: inline-block;
+}
+
+.content-wrapper {
+	width: 960px;
+	margin: 0 auto;	
+}
+.navigation {
+	float: right;
+	margin-top: 25px;
+}
+.navigation ul li {	
+	display: inline-block;	
+	font-size: 17px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-right: 0;
+}
+a {
+	color: #777777;
+	text-decoration: none;
+}
+a:hover {
+	color: #4aaaa5;
+	text-decoration: underline;
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+	width: 250px;
+	height: 100px;
+	padding-top: 30px;	
+	text-align: center;	
+}
+.social {
+	float: right;
+	width: 230px;
+	height: 180px;
+	background-color: #ffffff;
+	display: inline-block;
+	top: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	text-align: center;
+
+}
+.social img {
+
+	display: inline;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.connect {
+	padding: 10px;
+	border-bottom: solid #dddddd 1px;
+}
+.image-main {
+	margin: 10px;
+	float: left; 
+}
+.main-content, .contact-content, .portfolio-content {
+	background-color: white;
+	width: 650px;
+	margin-top: 25px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+	font-size: 16px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding: 20px;
+	min-height: 380px;
+	color: #777777;
+	line-height: 32px;
+
+}
+.header2, .header3, .header4 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px;
+	border-bottom: solid 3px #dddddd;
+	padding-left: 0;
+}
+.clearfix::after {
+	clear: both;
+	display: table;
+	content: " ";
+}
+.copyright {
+	background-color: #666666;
+	text-align: center;
+	height: 100px;
+	margin-bottom: 0;
+	border-top: solid 5px #4aaaa5;
+	width: 100%;
+	color: #ccc;
+	font-size: 11px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+	padding-top: 30px;
+}
+.button {
+	padding: 8px 20px 8px 20px; 
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+}
+
+
+/*****Specific to contact page only*****/
+#name {
+	width: 610px;
+	height: 35px;
+}
+#email {
+	width: 610px;
+	height: 35px;
+}
+#message {
+	width: 610px;
+	height: 250px;
+}
+
+input::placeholder {
+  color: #777777;
+}
+input[type=text] {
+	border: solid 1px #dddddd;
+}
+#message {
+	border: solid 1px #dddddd;
+}
+
+/*****Specific to portfolio page only*****/
+
+.portfolio-content {
+	min-height: 850px;
+	padding-bottom: 50px;
+}
+.project-1, .project-2, .project-3, .project-4, .project-5 {
+  float: left;
+  width: 270px;
+  height: 220px;
+  display: inline;
+  margin-top: 30px;
+  margin-left: 15px; 
+  position: relative; 
+
+}
+.project-1-name, .project-2-name, .project-3-name, .project-4-name, .project-5-name {
+	position: absolute;
+	top: 160px;
+  	width: 270px;
+  	height: 50px;
+  	background-color: #4aaaa5;
+  	color: white;
+  	text-align: center;
+  	padding-top: 10px;
+}
+
+
+
+
+
+/*Additional Specifcations
+
+Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+Profile Image Found on index.html:
+Use a picture of yourself.
+If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
+Portfolio Images:
+Placeholder images can be found at LoremPixel.
+Save the images to your images folder.
+Social Link Images (Github, LinkedIn, StackOverflow, etc.):
+These images can be found on IconFinder.
+Save the images to your images folder.
+Ensure that these icons are live links to your GitHub, LinkedIn, and Stack Overflow profiles.
+Background Images:
+The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
+Dimensions:
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+Pro-tip: Use the Page Ruler extension to measure the size of elements.
+Bonus
+
+Make your pages more sophisticated by adding style to text links, to image links, and to buttons for when a user hovers their cursor over them. A CSS hover tutorial can be found here.
+You can use Adobe Kuler to find colors that match the theme (in this case, the primary color is Teal #4aaaa5).
+Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page:
